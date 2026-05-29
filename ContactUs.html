@@ -1,46 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="site-header">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>AWO|Animal Welfare Organization</title>
 </head>
 <body>
     <header>
-        <h4>
-        <img src="img/Rabbit.png" alt="Image of a Bunny">
-        <h3>Animal Welfare Organization</h3>
-        <p>Bringing happiness to animals everywhere.</p>
-        </h4>
-        <nav>
-            <ul>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="AboutUs.html">About Us</a></li>
-               <li><a href="Adopt.html">Adopt</a></li>
-               <li><a href="Donate.html">Donate</a></li>
-               <li><a href="ContactUs.html">Contact Us</a></li>
-            </ul>
+        <nav class="navbar">
+
+            <div class="nav-top">
+                <div class="logo">
+                    <img src="img/Rabbit.png" alt="logo">
+                </div>   
+
+                <div class="nav-text">
+                    <h1 style="font-size: 50px;">Animal Welfare Organization</h1>
+                    <p><i>Bringing happiness to animals everywhere.</i></p>
+                    <ul align="center">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="Adopt.html">Adopt</a></li>
+                    <li><a href="Donate.html">Donate</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    </ul>
+                    <br>
+                </div>
         </nav>
-        <hr>
+        </div>
     </header>
-    <h2>Contact Us</h2> 
-</body>
-<footer>
-	<br>
-    <hr>
-	<p align="center"><button><a href="https://www.facebook.com/">Facebook</a></button>
-	<button><a href="https://www.x.com/">X</a></button>
-	<button><a href="https://www.instagram.com/">Instagram</a></button>
-    <button><a href="https://www.youtube.com/">Youtube</a></button>
-	</div>
-	<link rel="stylesheet" href="style.css">
-	<p align="center"><button><a href="privacy_policy.html">Privacy Policy</a></button>
-	<button><a href="terms_of_use.html">Terms of Use</a></button>
-	<button><a href="FAQs.html">FAQs</a></button></p>
+<br>
+    <h1 align="center"><u>Get In Touch</u></h1>
+<br>
+	<h2>We'd love to hear from you. Whether you have questions, want to adopt, or need help, we are here for you!</h2>
+	<ul>
+<br>  
+		<li><b>Phone Number:</b> 071 335 8570(Pretoria), 079 015 4303(Durban), 082 547 8177(Cape Town)</li><br>
+<br>
+		<li><b>Email Address:</b> animalwelfareorganization22@gmail.com, goitsigadebe434@gmail.com</li><br>
+<br>
+		<li><b>Mailing Address:</b> (Gauteng) 15 Visagie Street, Pretoria<br>
+				                    (Kwazulu-Natal) 349 Nelson Mandela Drive, Durban<br>
+				                    (Western Cape) 286 Antwoord Avenue, Cape Town</li><br>
+<br>
+				     
+		<li><b>Fax Number:</b> 074 115 5923</li>
+
+	</ul>
+
+<br>
+
+<hr>
+
+<br>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a consultation, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+        <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+	    <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email address.."><br><br>
+        <label for="province">Province  </label>
+            <select id="province" name="Province  ">
+                <option value="eastern_cape">Eastern Cape</option>
+                <option value="free_state">Free State</option>
+                <option value="gauteng">Gauteng</option>
+	            <option value="kwazulu-natal">KwaZulu-Natal</option>
+	            <option value="limpopo">Limpopo</option>
+	            <option value="mpumalanga">Mpumalanga</option>
+	            <option value="northern_cape">Northern Cape</option>
+	            <option value="north_west">North West</option>
+	            <option value="western_cape">Western Cape</option>
 	
 <br>
+	
+        </select><br><br>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<br>
+
+</body>
+<footer>
+
+<br>
+
+	<div class="socialIcons">
+		<a href=""><i class="fa-brands fa-facebook"></i></a>
+		<a href=""><i class="fa-brands fa-instagram"></i></a>
+		<a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+		<a href=""><i class="fa-brands fa-youtube"></i></a>
+	</div>
+
+	<p align="center"><button><a href="privacy_policy.html">Privacy Policy</a></button>
+	<button><a href="terms_of_use.html">Terms of Use</a></button>
+	<button><a href="FAQs.html">FAQs</a></button>
+	
+<br>
+        
+<hr>
         Author: Goitsimodimo Gadebe<br>
         &copy; Copyright Reserved<br>
         <small><a href="mailto:goitsigadebe434@gmail.com">goitsigadebe434@gmail.com</a></small>
-</footer>
+</footer> 
 </html>
